@@ -146,7 +146,7 @@ class DeleteFavoriteView(LoginRequiredMixin, View):
         a = get_object_or_404(Ad, id=pk)
         try:
             fav = Fav.objects.get(user=request.user, ad=a).delete()
-        except ad.DoesNotExist as e:
+        except Fav.DoesNotExist as e:
             pass
 
         return HttpResponse()
