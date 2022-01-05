@@ -18,7 +18,7 @@ Alternatively, you can log in with GitHub.
 This is an ad application which has CRUD functionality. Users are able to log in and log out. When logging in users can either use an account or log in using GitHub OAuth. 
 
 - Create: Click "Create Ad" to create an ad
-- Read: The default page allows users to view adds, they can click on the ad to get more details as well as post comments
+- Read: The default page allows users to view ads, they can click on the ad to get more details as well as post comments
 - Update: Users can update their own ads by clicking edit
 - Delete: Users can delete their own ads by clicking delete
 
